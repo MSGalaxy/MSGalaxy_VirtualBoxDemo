@@ -12,9 +12,14 @@
    It is important to use a computer that has Intel's VT-x or
    AMD-V. This guide will concentrate primary on workflows
 
++ *Download and Install Oracle's VirtualBox Software*
+
+  + [[https://www.virtualbox.org/wiki/Downloads][VirtualBox]]
+
 + *Download MSGalaxy_VirtualBoxDemo*
 
-  + Due to file size limtations, this virtual machine could not be iploaded to GitHub. Instead, it was publically published in /Google Drive/  
+  + Due to file size limtations, this virtual machine could not be iploaded to GitHub. Instead, it was publically published in /Google Drive/
+  + /Google Drive? DOES NOT preview well this file, so ignore warnings and download the file
 
     + [[https://drive.google.com/file/d/0B58JiRQJACvsdlB6dUptaVJacEU/view?usp=sharing][MSGalaxy_VirtualBoxDemo]]
 
@@ -43,10 +48,8 @@
   Go ahead and click on the Firefox icon on the left side
   of the window. This should automatically send you to:
 
+: http://localhost:8080/MSGalaxy 
 
-```sh
-  http://localhost:8080/MSGalaxy 
-```
 
   It should look like the next image:
 
