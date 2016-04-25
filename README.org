@@ -19,7 +19,7 @@
 + *Download MSGalaxy_VirtualBoxDemo*
 
   + Due to file size limtations, this virtual machine could not be iploaded to GitHub. Instead, it was publically published in /Google Drive/
-  + /Google Drive? DOES NOT preview well this file, so ignore warnings and download the file
+  + /Google Drive/ DOES NOT preview well this file, so ignore warnings and download the file
 
     + [[https://drive.google.com/file/d/0B58JiRQJACvsdlB6dUptaVJacEU/view?usp=sharing][MSGalaxy_VirtualBoxDemo]]
 
