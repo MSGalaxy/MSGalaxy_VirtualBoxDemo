@@ -55,7 +55,7 @@
 
 #+CAPTION: Firefox homepage
 #+NAME: Welcome Screen
-[[file:https://github.com/MSGalaxy/VirtualBoxDemo/raw/master/img/1.png]]
+[[file:./img/1.png]]
 ------------
   On the top side of the page, you will see a "User" drop
   down menu. Clicking on it will display a "Login" option that
@@ -63,7 +63,7 @@
 
 #+CAPTION: The location of the User tab is next to the help tab.
 #+NAME: User Tab
-[[https://github.com/MSGalaxy/VirtualBoxDemo/raw/master/img/2.png]]
+[[file:./img/2.png]]
 ------------
   The system has been setup in such a way that the login information
   is already filled in. Proceed by clicking on "Login"
