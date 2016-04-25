@@ -252,3 +252,25 @@
   may not be fully functional since this Virtual Machine is meant
   for basic demo purposes
 
++ *Team*
+  + This work is the product of a collaboration between the laboratories of:
+    |-----------------------+--------------------+------------------------------------|
+    | Name                  | EMail              | Department                         |
+    |-----------------------+--------------------+------------------------------------|
+    | Dr. Raymundo Arroyave | rarroyave@tamu.edu | Materials Sciences and Engineering |
+    | Dr. Rodolfo Aramayo   | raramayo@tamu.edu  | Biology                            |
+    |-----------------------+--------------------+------------------------------------|
+
+    |------------------+--------------------------------|
+    | TEAM:            |                                |
+    |------------------+--------------------------------|
+    | Ricardo Perez    | ricky_pz2@tamu.edu             |
+    | Daniel Sauceda   | danielsauceda@tamu.edu         |
+    | Anjana Talapatra | anjanatalapatra@email.tamu.edu |
+    | Aditya Purandare | adityapurandare@tamu.edu       |
+    | Nayan Chaudhary  | nayanchaudhary@tamu.edu        |
+    | Ramaranjan Ruj   | ramaranjanruj@tamu.edu         |
+    | Saurabh Patil    | saurabhpatil@tamu.edu          |
+    | Vinay Akula      | vinay_akula@tamu.edu           |
+    |------------------+--------------------------------|
+
