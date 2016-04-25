@@ -3,13 +3,17 @@
 
 + *A Demo of MSGalaxy Running Inside an Ubuntu Container*
 
-  +  Introduction
-     This document will help a user use MSGalaxy Virtual Machine
-     using [[file:https://www.virtualbox.org/wiki/Downloads][Oracle's VirtualBox Software]]. The user will need to
-     import MSGalaxy.ova into the list of their virtual machines.
-     It is important to use a computer that has Intel's VT-x or
-     AMD-V. This guide will concentrate primary on workflows
-------------
++  *Introduction*
+   This document will help a user use MSGalaxy Virtual Machine
+   using [[file:https://www.virtualbox.org/wiki/Downloads][Oracle's VirtualBox Software]]. The user will need to
+   import MSGalaxy.ova into the list of their virtual machines.
+   It is important to use a computer that has Intel's VT-x or
+   AMD-V. This guide will concentrate primary on workflows
+
++ *Download MSGalaxy_VirtualBoxDemo*
+  + Due to file size limtations, this virtual machine could not be iploaded to GitHub. Instead, it was publically published in /Google Drive/  
+    [[https://drive.google.com/file/d/0B58JiRQJACvsdlB6dUptaVJacEU/view?usp=sharing][MSGalaxy_VirtualBoxDemo]]
+
 + *Users and Passwords*
 
   + *System*
@@ -29,32 +33,32 @@
     |-------------------+-----------|
 
 + *First Steps*
-The virtual machine should already be set up in a way
-that when started, it will log you in to the system.
-Go ahead and click on the Firefox icon on the left side
-of the window. This should automatically send you to:
+  The virtual machine should already be set up in a way
+  that when started, it will log you in to the system.
+  Go ahead and click on the Firefox icon on the left side
+  of the window. This should automatically send you to:
 
 
+```sh
+  http://localhost:8080/MSGalaxy 
 ```
-http://localhost:8080/MSGalaxy 
-```
 
-It should look like the next image:
+  It should look like the next image:
 
 #+CAPTION: Firefox homepage
 #+NAME: Welcome Screen
-[[file:./img/1.png]]
+[[file:https://github.com/MSGalaxy/VirtualBoxDemo/raw/master/img/1.png]]
 ------------
-On the top side of the page, you will see a "User" drop
-down menu. Clicking on it will display a "Login" option that
-you should use
+  On the top side of the page, you will see a "User" drop
+  down menu. Clicking on it will display a "Login" option that
+  you should use
 
 #+CAPTION: The location of the User tab is next to the help tab.
 #+NAME: User Tab
-[[file:./img/2.png]]
+[[https://github.com/MSGalaxy/VirtualBoxDemo/raw/master/img/2.png]]
 ------------
-The system has been setup in such a way that the login information
-is already filled in. Proceed by clicking on "Login"
+  The system has been setup in such a way that the login information
+  is already filled in. Proceed by clicking on "Login"
 
 #+CAPTION: The login screen
 #+NAME: Login Screen
@@ -62,33 +66,33 @@ is already filled in. Proceed by clicking on "Login"
 ------------
 + *Uploading a File*
 
-Uploading a file into MSGalaxy is pretty simple.
-From the log in screen on the left tabs there is an icon
-with a upload symbol
+  Uploading a file into MSGalaxy is pretty simple
+  From the log in screen on the left tabs there is an icon
+  with a upload symbol
 
 #+CAPTION: The location of the upload icon
 #+NAME: Upload Icon
 [[file:./img/6.png]]
 ------------
-Clicking on this icon will open a window that allows the user
-to view the files to be uploaded. Since we do not have anything
-in the queue, we should add one by clicking on "Choose local file"
+  Clicking on this icon will open a window that allows the user
+  to view the files to be uploaded. Since we do not have anything
+  in the queue, we should add one by clicking on "Choose local file"
 
 #+CAPTION: Screen with queue file to be uploaded
 #+NAME: Queue Screen
 [[file:./img/7.png]]
 ------------
-Navigating to the Documents folder, a file named "machine_data.txt"
-exists for demo purposes. Selecting this file and clicking on "Open"
-will set the file in the queue list
+  Navigating to the Documents folder, a file named "machine_data.txt"
+  exists for demo purposes. Selecting this file and clicking on "Open"
+  will set the file in the queue list
 
 #+CAPTION: Navigate to this location to find the sample file
 #+NAME: Test File
 [[file:./img/8.png]]
 ------------
-On the queue screen, there should be now an option "Start" available.
-Clickin on this button will start the upload from the queue list into
-your current history
+  On the queue screen, there should be now an option "Start" available.
+  Clickin on this button will start the upload from the queue list into
+  your current history
 
 #+CAPTION: The start button is colored blue
 #+NAME: Start Upload
@@ -100,40 +104,40 @@ your current history
 ------------
 + *Running a Workflow*
 
-On the top of the page ther is a tab called "Workflow".
-Clicking on this will send you to the page that contains
-all your workflows and shared workflows.
+  On the top of the page ther is a tab called "Workflow".
+  Clicking on this will send you to the page that contains
+  all your workflows and shared workflows.
 
 #+CAPTION: Workflow page
 #+NAME: Workflow Page
 [[file:./img/4.png]]
 ------------
-You should see two workflows, in this part we will open
-the DSC sample workflow. Clicking on the desired workflow
-should show a drop down menu with several options.
+  You should see two workflows, in this part we will open
+  the DSC sample workflow. Clicking on the desired workflow
+  should show a drop down menu with several options.
 
 #+CAPTION: Workflow menu
 #+NAME: Workflow Menu
 [[file:./img/5.png]]
 ------------
-For this part we will select the "Run" option and it should send
-the user back to the history. In the history you will now be greeted
-with a description of the workflow. In this window you can choose your
-file(s) to run the workflow. You will also be able to change the options
-of any steps in the workflow.
+  For this part we will select the "Run" option and it should send
+  the user back to the history. In the history you will now be greeted
+  with a description of the workflow. In this window you can choose your
+  file(s) to run the workflow. You will also be able to change the options
+  of any steps in the workflow.
 
 #+CAPTION: Workflow minor editing page
 #+NAME: Workflow minor edit
 [[file:./img/11.png]]
 ------------
-Clicking on "Run Workflow" will submit the job into the computer and
-your history will update accordingly. Note how your history has new datasets
-and they will go from clear to yellow. The absence of color indicates
-that a job is not yet submmited, yellow indicates that the job is running,
-green that the job is completed successfully, and red indicates there were
-errors. You are able to see the output of the dataset by clicking on the
-"View data" icon in the dataset represented with an eye. This will
-display the contents of the dataset on the main page.
+  Clicking on "Run Workflow" will submit the job into the computer and
+  your history will update accordingly. Note how your history has new datasets
+  and they will go from clear to yellow. The absence of color indicates
+  that a job is not yet submmited, yellow indicates that the job is running,
+  green that the job is completed successfully, and red indicates there were
+  errors. You are able to see the output of the dataset by clicking on the
+  "View data" icon in the dataset represented with an eye. This will
+  display the contents of the dataset on the main page.
 
 #+CAPTION: History with running datasets
 #+NAME: History datasets
@@ -157,14 +161,14 @@ display the contents of the dataset on the main page.
 ------------
 + *Create a New History*
 
-In order to reduce clutter of datasets it may be a good idea to
-create a new history. On the top right area of the page there is
-an icon of a gear called "History options". A drop down menu will
-appeared when clicked on, and you should click on "Create New" to
-make a new history. Note that any previous histories are saved by
-MSGalaxy and can be viewed by selecting the "Saved Histories" option.
-After creating a new history you can rename it by double clicking on
-"Unnamed history" and changing it to any name
+  In order to reduce clutter of datasets it may be a good idea to
+  create a new history. On the top right area of the page there is
+  an icon of a gear called "History options". A drop down menu will
+  appeared when clicked on, and you should click on "Create New" to
+  make a new history. Note that any previous histories are saved by
+  MSGalaxy and can be viewed by selecting the "Saved Histories" option.
+  After creating a new history you can rename it by double clicking on
+  "Unnamed history" and changing it to any name
 
 #+CAPTION: Histories icon
 #+NAME: Histories Data
@@ -184,20 +188,20 @@ After creating a new history you can rename it by double clicking on
 ------------
 + *Editing a workflow*
 
-If we return on the Workflow page by clicking on the tab
-on top of the page, we can then select the "Edit" option
-on the "MaterialProject Sample" workflow
+  If we return on the Workflow page by clicking on the tab
+  on top of the page, we can then select the "Edit" option
+  on the "MaterialProject Sample" workflow
 
 #+CAPTION: Click on Edit
 #+NAME: Edit Menu
 [[file:./img/20.png]]
 ------------
-This will bring you to a workflow workspace where you can edit your
-workflow. This is done by selecting a tool on the left which will add
-a new box in the workspace. Then you are able to connect the workflows
-by clicking the arrows on the right of the box(outputs) to the right
-of another box. Clicking on a box will allow you to change any settings
-for that particular tool
+  This will bring you to a workflow workspace where you can edit your
+  workflow. This is done by selecting a tool on the left which will add
+  a new box in the workspace. Then you are able to connect the workflows
+  by clicking the arrows on the right of the box(outputs) to the right
+  of another box. Clicking on a box will allow you to change any settings
+  for that particular tool
 
 #+CAPTION: The workspace to edit workflows. Available tools are on the left and the boxes have inputs and outputs that can be connected to other tools
 #+NAME: Workspace
@@ -207,15 +211,15 @@ for that particular tool
 #+NAME: Tool options
 [[file:./img/22.png]]
 ------------
-Clicking on the gear on the top right corner, you will be able
-to save, run, edit attributes, auto re-layout, and close
-the workspace. Go ahead and save the workflow and then run the workflow
-by clicking the appropiate options. This will bring you to a familiar
-page that describes the tools in your workflow. In this case we will
-input the trinary system "Co,V,Al" for the tool to work on.  The jobs
-will be submitted as soon as the job in a previous step of the
-workflow is completed. When the job is done you should be able to
-explore the outputs
+  Clicking on the gear on the top right corner, you will be able
+  to save, run, edit attributes, auto re-layout, and close
+  the workspace. Go ahead and save the workflow and then run the workflow
+  by clicking the appropiate options. This will bring you to a familiar
+  page that describes the tools in your workflow. In this case we will
+  input the trinary system "Co,V,Al" for the tool to work on.  The jobs
+  will be submitted as soon as the job in a previous step of the
+  workflow is completed. When the job is done you should be able to
+  explore the outputs
 
 #+CAPTION: Save, the run the workflow
 #+NAME: Running Workflow
@@ -234,7 +238,8 @@ explore the outputs
 [[file:./img/30.png]]
 ------------
 + *Notes*
-Do note that this short guide is not meant to be a
-comprehensive guide to MSGalaxy. Also, some tools in MSGalaxy
-may not be fully functional since this Virtual Machine is meant
-for basic demo purposes
+  Do note that this short guide is not meant to be a
+  comprehensive guide to MSGalaxy. Also, some tools in MSGalaxy
+  may not be fully functional since this Virtual Machine is meant
+  for basic demo purposes
+
