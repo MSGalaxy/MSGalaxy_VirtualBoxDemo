@@ -1,9 +1,11 @@
 *Materials Sciences Galaxy (MSGalaxy)*
+
 *A Materials Scientific Workflow Management System*
 
-+ *A Demo of MSGalaxy Running Inside an Ubuntu Container*
+*A Demo of MSGalaxy Running Inside an Ubuntu Container*
 
 +  *Introduction*
+
    This document will help a user use MSGalaxy Virtual Machine
    using [[file:https://www.virtualbox.org/wiki/Downloads][Oracle's VirtualBox Software]]. The user will need to
    import MSGalaxy.ova into the list of their virtual machines.
@@ -11,8 +13,10 @@
    AMD-V. This guide will concentrate primary on workflows
 
 + *Download MSGalaxy_VirtualBoxDemo*
+
   + Due to file size limtations, this virtual machine could not be iploaded to GitHub. Instead, it was publically published in /Google Drive/  
-    [[https://drive.google.com/file/d/0B58JiRQJACvsdlB6dUptaVJacEU/view?usp=sharing][MSGalaxy_VirtualBoxDemo]]
+
+    + [[https://drive.google.com/file/d/0B58JiRQJACvsdlB6dUptaVJacEU/view?usp=sharing][MSGalaxy_VirtualBoxDemo]]
 
 + *Users and Passwords*
 
@@ -33,6 +37,7 @@
     |-------------------+-----------|
 
 + *First Steps*
+
   The virtual machine should already be set up in a way
   that when started, it will log you in to the system.
   Go ahead and click on the Firefox icon on the left side
@@ -238,6 +243,7 @@
 [[file:./img/30.png]]
 ------------
 + *Notes*
+
   Do note that this short guide is not meant to be a
   comprehensive guide to MSGalaxy. Also, some tools in MSGalaxy
   may not be fully functional since this Virtual Machine is meant
